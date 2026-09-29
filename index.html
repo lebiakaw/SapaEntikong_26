@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Layanan Terpadu - Balai PPMHKP Entikong</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons untuk ikon modern -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body class="bg-slate-50 font-sans text-slate-800 antialiased">
+    <!-- TOP BAR INFO KONTAK -->
+    <div
+      class="bg-blue-950 text-blue-200 text-xs py-2 border-b border-blue-900 hidden sm:block"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-4">
+          <span class="flex items-center gap-1.5"
+            ><i class="ph ph-map-pin text-sky-400"></i> Jl. Lintas Malindo
+            Entikong, Kec. Entikong, Kabupaten Sanggau, Kalimantan Barat
+            78557</span
+          >
+          <span class="flex items-center gap-1.5"
+            ><i class="ph ph-envelope-simple text-sky-400"></i>
+            bppmhkp.etk@kkp.go.id</span
+          >
+        </div>
+        <div class="flex items-center gap-3">
+          <span
+            class="bg-blue-800/60 px-2.5 py-0.5 rounded text-[11px] font-medium text-sky-300"
+            >Wilayah Kerja Entikong</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- HEADER & NAVIGASI -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between"
+      >
+        <div class="flex items-center space-x-3">
+          <div
+            class="bg-gradient-to-br from-blue-900 to-sky-700 text-white p-2.5 rounded-xl shadow-md font-bold"
+          >
+            <i class="ph ph-shield-check text-2xl align-middle"></i>
+          </div>
+          <div>
+            <h1
+              class="font-extrabold text-blue-950 text-sm sm:text-base leading-tight tracking-tight"
+            >
+              BALAI PPMHKP Entikong
+            </h1>
+            <p class="text-[11px] text-slate-500 font-medium">
+              Badan Pengendalian dan Pengawasan Mutu Hasil Kelautan dan
+              Perikanan
+            </p>
+          </div>
+        </div>
+        <nav
+          class="hidden md:flex space-x-6 text-sm font-medium text-slate-600"
+        >
+          <a href="#beranda" class="text-blue-700 font-semibold">Beranda</a>
+          <a href="#layanan" class="hover:text-blue-700 transition"
+            >Layanan & Lab</a
+          >
+          <a href="#aplikasi" class="hover:text-blue-700 transition"
+            >Aplikasi Digital</a
+          >
+          <a href="#sertifikat" class="hover:text-blue-700 transition"
+            >Data Sertifikat</a
+          >
+          <a
+            href="https://ppid.kkp.go.id/upt/balai-ppmhkp-entikong/"
+            class="hover:text-blue-700 transition"
+            >PPID & Publik</a
+          >
+        </nav>
+        <div class="flex items-center gap-2">
+          <a
+            href="https://siapmutu.kkp.go.id"
+            target="_blank"
+            class="bg-blue-900 hover:bg-blue-800 text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-lg transition shadow-sm flex items-center gap-2"
+          >
+            <i class="ph ph-sign-in text-base"></i> Portal Masuk
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section
+      id="beranda"
+      class="bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900 text-white py-16 px-4 relative overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"
+      ></div>
+      <div
+        class="max-w-7xl mx-auto grid md:grid-cols-12 gap-8 items-center relative z-10"
+      >
+        <div class="md:col-span-7">
+          <span
+            class="bg-sky-500/20 text-sky-300 border border-sky-400/30 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider inline-flex items-center gap-1.5"
+          >
+            <i class="ph ph-certificate text-sm"></i> Jaminan Mutu & Keamanan
+            Hasil Perikanan
+          </span>
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mt-4 leading-tight"
+          >
+            PORTAL LAYANAN MUTU <br /><span class="text-sky-400"
+              >BALAI PPMHKP Entikong</span
+            >
+          </h2>
+          <p
+            class="mt-4 text-blue-100 text-sm sm:text-base leading-relaxed max-w-2xl"
+          >
+            Pusat integrasi perizinan sertifikasi mutu ekspor, inspeksi unit
+            pengolahan ikan, monitoring masa berlaku sertifikat kelayakan, dan
+            pengujian laboratorium terakreditasi KAN di Provinsi Kalimantan
+            Barat.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              href="#aplikasi"
+              class="bg-sky-500 hover:bg-sky-400 text-blue-950 font-bold px-5 py-2.5 rounded-lg text-sm transition flex items-center gap-2 shadow-lg shadow-sky-500/20"
+            >
+              <i class="ph ph-rocket-launch"></i> Layanan Online
+            </a>
+            <a
+              href="#sertifikat"
+              class="bg-white/10 hover:bg-white/20 text-white font-semibold px-5 py-2.5 rounded-lg text-sm border border-white/20 transition flex items-center gap-2 backdrop-blur-sm"
+            >
+              <i class="ph ph-magnifying-glass"></i> Cek Status Sertifikat
+            </a>
+          </div>
+        </div>
+
+        <!-- COUNTER METRICS WIDGET (DATA PERIKANAN Entikong) -->
+        <div class="md:col-span-5 grid grid-cols-2 gap-4">
+          <div
+            class="bg-white/10 backdrop-blur-md p-5 rounded-2xl border border-white/15 hover:border-sky-400/40 transition shadow-inner"
+          >
+            <i class="ph ph-boat text-3xl text-sky-400 mb-2"></i>
+            <div class="text-2xl font-bold">28.900+ Ton</div>
+            <p class="text-xs text-blue-200 mt-1">Volume Ekspor Terkendali</p>
+          </div>
+          <div
+            class="bg-white/10 backdrop-blur-md p-5 rounded-2xl border border-white/15 hover:border-emerald-400/40 transition shadow-inner"
+          >
+            <i class="ph ph-check-fat text-3xl text-emerald-400 mb-2"></i>
+            <div class="text-2xl font-bold">20+ UPI</div>
+            <p class="text-xs text-blue-200 mt-1">Unit Pengolahan Terbina</p>
+          </div>
+          <div
+            class="bg-white/10 backdrop-blur-md p-5 rounded-2xl border border-white/15 hover:border-amber-400/40 transition shadow-inner"
+          >
+            <i class="ph ph-flask text-3xl text-amber-400 mb-2"></i>
+            <div class="text-2xl font-bold">100% KAN</div>
+            <p class="text-xs text-blue-200 mt-1">ISO/IEC 17025 Laboratorium</p>
+          </div>
+          <div
+            class="bg-white/10 backdrop-blur-md p-5 rounded-2xl border border-white/15 hover:border-indigo-400/40 transition shadow-inner"
+          >
+            <i class="ph ph-star text-3xl text-indigo-400 mb-2"></i>
+            <div class="text-2xl font-bold">92.4</div>
+            <p class="text-xs text-blue-200 mt-1">Indeks Kepuasan Masyarakat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIREKTORI APLIKASI DIGITAL KKP & PPMHKP Entikong -->
+    <section id="aplikasi" class="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div
+        class="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-2"
+      >
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+            <i class="ph ph-grid-four text-blue-800"></i> Akses Cepat Aplikasi
+            Layanan
+          </h3>
+          <p class="text-sm text-slate-500 mt-1">
+            Sistem satu pintu pelayanan sertifikasi, uji lab, dan kepatuhan
+            hasil perikanan
+          </p>
+        </div>
+        <span
+          class="text-xs font-semibold text-blue-800 bg-blue-50 px-3 py-1.5 rounded-md border border-blue-100 self-start md:self-auto"
+        >
+          Kementerian Kelautan dan Perikanan
+        </span>
+      </div>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- SIAPMUTU -->
+        <a
+          href="https://siapmutu.kkp.go.id"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-blue-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-blue-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-seal-check"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-blue-700 transition text-base"
+          >
+            SIAPMUTU
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Permohonan pemeriksaan & penerbitan Sertifikat Mutu dan Keamanan
+            Hasil Perikanan (SMKHP) ekspor perikanan.
+          </p>
+        </a>
+
+        <!-- HONEST / HACCP -->
+        <a
+          href="https://haccp.kkp.go.id"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-emerald-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-emerald-50 text-emerald-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-emerald-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-shield-check"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-emerald-700 transition text-base"
+          >
+            HONEST HACCP
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Penerbitan dan survailen Sertifikat Penerapan Program Manajemen Mutu
+            Terpadu / HACCP.
+          </p>
+        </a>
+
+        <!-- OSS RBA -->
+        <a
+          href="https://oss.go.id"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-amber-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-amber-50 text-amber-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-amber-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-buildings"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-amber-700 transition text-base"
+          >
+            OSS RBA
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Perizinan berusaha dan kelayakan standar pengolahan (SKP, SPDI,
+            CBIB, CPIB).
+          </p>
+        </a>
+
+        <!-- LAYANAN LABORATORIUM UJI -->
+        <a
+          href="#layanan"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-cyan-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-cyan-50 text-cyan-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-cyan-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-test-tube"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-cyan-700 transition text-base"
+          >
+            Silat Lab Entikong
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Pendaftaran uji sampel mikrobiologi, kimia, residu antibiotik, dan
+            organoleptik perikanan.
+          </p>
+        </a>
+
+        <!-- PPID KKP -->
+        <a
+          href="https://ppid.kkp.go.id/upt/balai-ppmhkp-entikong/"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-indigo-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-indigo-50 text-indigo-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-indigo-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-files"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-indigo-700 transition text-base"
+          >
+            PPID Balai Entikong
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Layanan keterbukaan informasi publik, dokumen kinerja, dan regulasi
+            sertifikasi mutu hulu hilir.
+          </p>
+        </a>
+
+        <!-- e-SKM -->
+        <a
+          href="https://ptsp.kkp.go.id/skm/s/u/45"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-purple-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-purple-50 text-purple-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-purple-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-chats-circle"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-purple-700 transition text-base"
+          >
+            e-SKM Online
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Survei Kepuasan Masyarakat atas pelayanan teknis dan sertifikasi
+            Balai PPMHKP Entikong.
+          </p>
+        </a>
+
+        <!-- WBS & PENGADUAN -->
+        <a
+          href="https://kkp.go.id/wbs"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-rose-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-rose-50 text-rose-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-rose-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-megaphone-simple"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-rose-700 transition text-base"
+          >
+            Pengaduan & WBS
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Saluran pengaduan terintegrasi, integritas bebas korupsi
+            (ZI-WBK/WBBM), dan gratifikasi.
+          </p>
+        </a>
+
+        <!-- JDIH KKP -->
+        <a
+          href="https://jdih.kkp.go.id"
+          target="_blank"
+          class="p-5 bg-white border border-slate-200 rounded-2xl hover:shadow-lg hover:border-teal-500 hover:-translate-y-0.5 transition group"
+        >
+          <div
+            class="w-11 h-11 bg-teal-50 text-teal-700 rounded-xl flex items-center justify-center font-bold text-xl mb-3 group-hover:bg-teal-600 group-hover:text-white transition"
+          >
+            <i class="ph ph-scales"></i>
+          </div>
+          <h4
+            class="font-bold text-slate-900 group-hover:text-teal-700 transition text-base"
+          >
+            JDIH KKP
+          </h4>
+          <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+            Basis data regulasi hukum, standar keamanan pangan, dan keputusan
+            Menteri KP terkini.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- DASHBOARD MONITORING DATA SERTIFIKAT PELAKU USAHA Entikong -->
+    <section id="sertifikat" class="py-14 bg-white border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-3"
+        >
+          <div>
+            <h3
+              class="text-2xl font-bold text-slate-900 flex items-center gap-2"
+            >
+              <i class="ph ph-database text-blue-800"></i> Monitoring Masa
+              Berlaku Sertifikat (UPI / Pelaku Usaha Entikong)
+            </h3>
+            <p class="text-sm text-slate-500 mt-0.5">
+              Sistem verifikasi aktif status sertifikat jaminan mutu wilayah
+              pembinaan Entikong
+            </p>
+          </div>
+          <div class="flex items-center gap-2">
+            <input
+              type="text"
+              id="cari-sertifikat"
+              placeholder="Cari unit usaha / komoditas..."
+              class="text-xs border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600 w-56"
+            />
+            <span
+              class="text-xs bg-slate-100 text-slate-600 px-3 py-2 rounded-lg border font-mono"
+            >
+              Auto Refresh
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm"
+        >
+          <table class="w-full text-left text-sm text-slate-600">
+            <thead
+              class="bg-slate-50 text-slate-800 font-semibold border-b border-slate-200 text-xs uppercase tracking-wider"
+            >
+              <tr>
+                <th class="p-4">Nama Pelaku Usaha / UPI Entikong</th>
+                <th class="p-4">Jenis Sertifikasi</th>
+                <th class="p-4">Ruang Lingkup Produk</th>
+                <th class="p-4">Masa Berlaku Hingga</th>
+                <th class="p-4">Status Masa Berlaku</th>
+              </tr>
+            </thead>
+            <tbody id="tabel-sertifikat" class="divide-y divide-slate-100">
+              <!-- Data dimasukkan secara dinamis oleh JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER RESMI -->
+    <footer
+      class="bg-slate-900 text-slate-400 pt-12 pb-8 border-t border-slate-800"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-slate-800 text-xs"
+      >
+        <div>
+          <h5 class="text-white font-bold text-sm mb-3">
+            BALAI PPMHKP Entikong
+          </h5>
+          <p class="leading-relaxed text-slate-400">
+            Unit Pelaksana Teknis Badan Pengendalian dan Pengawasan Mutu Hasil
+            Kelautan dan Perikanan, Kementerian Kelautan dan Perikanan Republik
+            Indonesia.
+          </p>
+          <p class="mt-3 text-slate-500">
+            Mewujudkan jaminan mutu dan keamanan hasil perikanan yang terpercaya
+            dan berdaya saing global.
+          </p>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-sm mb-3">KANTOR PELAYANAN</h5>
+          <p class="leading-relaxed">
+            Jl. Lintas Malindo, Entikong,<br />
+            Kecamatan Entikong, Kabupaten Sanggau,<br />
+            Provinsi Kalimantan Barat - Indonesia.
+          </p>
+          <p class="mt-2 text-sky-400">Email: bppmhkp.etk@kkp.go.id</p>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-sm mb-3">MAKLUMAT PELAYANAN</h5>
+          <p class="leading-relaxed text-slate-400">
+            "Dengan ini kami menyatakan sanggup menyelenggarakan pelayanan
+            sesuai standar pelayanan yang telah ditetapkan dan siap menerima
+            sanksi sesuai perundang-undangan bila terjadi pelanggaran."
+          </p>
+          <div class="mt-3 flex gap-2">
+            <span
+              class="inline-block bg-slate-800 text-sky-400 px-2 py-1 rounded text-[10px] font-mono border border-slate-700"
+              >ISO 9001:2015</span
+            >
+            <span
+              class="inline-block bg-slate-800 text-emerald-400 px-2 py-1 rounded text-[10px] font-mono border border-slate-700"
+              >ISO/IEC 17025:2017</span
+            >
+            <span
+              class="inline-block bg-slate-800 text-amber-400 px-2 py-1 rounded text-[10px] font-mono border border-slate-700"
+              >ISO 37001 SMAP</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center text-xs text-slate-500 pt-6"
+      >
+        <p>© 2026 Balai PPMHKP Entikong — Kementerian Kelautan dan Perikanan</p>
+        <p class="mt-2 sm:mt-0">
+          Portal Pelayanan Terpadu & Digitalisasi Mutu Perikanan
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // 1. Tempelkan tautan URL CSV dari Langkah 1 di sini
+      const CSV_URL =
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpXXGTIGopqw1BO1U-p6YOqw-KL4ZDArLz-uU473NFhJKTwUOfFzYov2e9Ly742UPO2NMr4WA6tnW8/pub?gid=0&single=true&output=csv";
+
+      const tbody = document.getElementById("tabel-sertifikat");
+      const inputCari = document.getElementById("cari-sertifikat");
+      let dataSertifikat = [];
+
+      // 2. Fungsi memuat dan parsing CSV langsung ke tabel
+      async function ambilDataSheets() {
+        tbody.innerHTML = `
+        <tr>
+          <td colspan="5" class="p-8 text-center text-slate-500">
+            <i class="ph ph-spinner animate-spin text-2xl text-blue-600 block mb-2 mx-auto"></i>
+            Memuat data real-time dari Google Sheets...
+          </td>
+        </tr>
+      `;
+
+        try {
+          // Tambahkan parameter waktu agar browser selalu menarik data teranyar
+          const response = await fetch(`${CSV_URL}&_t=${new Date().getTime()}`);
+          if (!response.ok) throw new Error("Gagal mengambil berkas CSV");
+
+          const csvText = await response.text();
+
+          // Memecah baris CSV menjadi array data
+          const baris = csvText
+            .trim()
+            .split(/\r?\n/)
+            .map((row) => row.split(","));
+          const headers = baris[0].map((h) =>
+            h.trim().toLowerCase().replace(/"/g, ""),
+          );
+
+          dataSertifikat = baris.slice(1).map((row) => {
+            let item = {};
+            headers.forEach((header, index) => {
+              let nilai = row[index] ? row[index].replace(/"/g, "").trim() : "";
+              item[header] = nilai;
+            });
+            return item;
+          });
+
+          renderTabel(dataSertifikat);
+        } catch (err) {
+          console.error("Detail Galat:", err);
+          tbody.innerHTML = `
+          <tr>
+            <td colspan="5" class="p-6 text-center text-rose-600">
+              Gagal memuat data dari Spreadsheet. Pastikan URL CSV sudah dipublikasikan ke web.
+            </td>
+          </tr>
+        `;
+        }
+      }
+
+      // 3. Fungsi menampilkan data ke tabel
+      function renderTabel(list) {
+        tbody.innerHTML = "";
+        const today = new Date();
+
+        if (!list || list.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">Tidak ada data unit kerja.</td></tr>`;
+          return;
+        }
+
+        list.forEach((item) => {
+          const expDate = new Date(item.exp);
+          const diffTime = expDate - today;
+          const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+          const formattedExp = !isNaN(expDate)
+            ? expDate.toISOString().split("T")[0]
+            : item.exp;
+
+          let badgeStyle = "bg-emerald-50 text-emerald-700 border-emerald-200";
+          let statusText = `${diffDays} Hari Tersisa`;
+
+          if (diffDays <= 0) {
+            badgeStyle = "bg-slate-100 text-slate-600 border-slate-300";
+            statusText = "Kedaluwarsa";
+          } else if (diffDays <= 30) {
+            badgeStyle =
+              "bg-rose-50 text-rose-700 border-rose-200 animate-pulse";
+            statusText = `Segera Perpanjang (${diffDays} Hari)`;
+          } else if (diffDays <= 90) {
+            badgeStyle = "bg-amber-50 text-amber-800 border-amber-200";
+            statusText = `Waspada (${diffDays} Hari)`;
+          }
+
+          const row = `
+          <tr class="hover:bg-slate-50/80 transition">
+            <td class="p-4 font-semibold text-slate-900">
+              ${item.nama || "-"}
+              <span class="block text-[11px] text-slate-400 font-normal">Provinsi Kalimantan Barat</span>
+            </td>
+            <td class="p-4"><span class="font-mono text-xs font-bold bg-blue-50 text-blue-700 px-2.5 py-1 rounded border border-blue-100">${item.jenis || "-"}</span></td>
+            <td class="p-4 text-slate-700">${item.scope || "-"}</td>
+            <td class="p-4 font-mono text-xs text-slate-600">${formattedExp || "-"}</td>
+            <td class="p-4">
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-full border ${badgeStyle}">
+                <span class="w-1.5 h-1.5 rounded-full ${diffDays <= 0 ? "bg-slate-400" : diffDays <= 30 ? "bg-rose-600" : diffDays <= 90 ? "bg-amber-500" : "bg-emerald-600"}"></span>
+                ${statusText}
+              </span>
+            </td>
+          </tr>
+        `;
+          tbody.innerHTML += row;
+        });
+      }
+
+      // 4. Fitur pencarian
+      if (inputCari) {
+        inputCari.addEventListener("input", (e) => {
+          const keyword = e.target.value.toLowerCase();
+          const filtered = dataSertifikat.filter(
+            (d) =>
+              (d.nama && String(d.nama).toLowerCase().includes(keyword)) ||
+              (d.scope && String(d.scope).toLowerCase().includes(keyword)) ||
+              (d.jenis && String(d.jenis).toLowerCase().includes(keyword)),
+          );
+          renderTabel(filtered);
+        });
+      }
+
+      // Jalankan pemanggilan
+      ambilDataSheets();
+    </script>
+  </body>
+</html>
